@@ -1,0 +1,858 @@
+body {
+    width: 100%;
+    height: 100%;
+    
+   
+    }
+    .content {
+    font-size: 87.5%;
+    line-height: 1.5;
+    clear: both;
+    background-color:#c8e0d7;
+    }
+* {
+    padding: 0 ;
+    margin : 0 ;
+    }
+a {
+    text-decoration:none;
+    color:#d96e26;
+}
+.button_class {
+    padding: 15px 0 15px 15px;
+    width: 100%;
+   text-align: left;
+}
+.select_from {
+   float: left;
+    width: 23%;
+    margin-left:2%;
+    margin-top:2%;
+    background-color:white;
+    box-shadow: 1px 2px 8px rgba(0,0,0,.5);
+    -moz-box-shadow: 1px 2px 8px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 8px rgba(0,0,0,.5);
+}
+
+.mainHeader_view {
+    background-color:#eee7e7;
+}
+.frontDisplay {
+   float: right;
+    padding-top: 30px;
+    margin-right: 10%;
+}
+
+.frontDisplay_reg {
+    padding-left: 10px;
+    margin-left: 10%;
+    padding-right:10px
+}
+.frontDisplay_create {
+    margin-left: 10%;
+    color: white
+}
+.loggedfrontDisplay_create {
+    margin-left: 20%;
+    color: white;
+}
+#headerNav {
+        display: table;
+    }
+.b_Add_Class {
+    background-color:white;
+    padding-left: 10%;
+    padding-top: 50px;
+    margin-right: 50px
+}
+.b_Add_Container {
+    margin-bottom:10px;
+    margin-left:5%;
+}
+.sub {
+    width:30%;
+    height: 25px;
+}
+.topHeader {
+    padding-top:10px;
+    color:#d96e26;
+    background-color:white;
+}
+.headerSearchBar {
+    margin-left: 8%;
+    width: 80%;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    background-color: #8a8a0f
+}
+.create_ad_page_header {
+     background-color:#ffe0cc;
+     padding:10px 0 50px 0;
+}
+.create_ad_page_header .home {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 5%;
+    float: left
+}
+.create_ad_page_header .other {
+margin-left:40%;
+float: left;
+padding:5px 10px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background-color:#8a8a0f;
+}
+.create_ad_page_header .otherNavs {
+margin-left:2%;
+float: left;
+padding:5px 10px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+background-color:#8a8a0f;
+}
+.create_ad_page_header .tobeActive {
+background-color:#d96e26;
+margin-left:2%;
+float: left;
+padding:5px 10px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.mobile_create_ad_page_header {
+     background-color:#ffe0cc;
+     padding:10px 0 50px 0;
+     display: none;
+}
+.mobile_create_ad_page_header .home {
+    margin-left: 5%;
+    float: left;
+    width: 100px;
+
+}
+
+.show_ad_content {
+    width: 94%;
+    margin:0 3%;
+}
+.mainShowAd {
+    width: 100%;
+}
+.mobile_mainShowAdd {
+    width: 100%;
+    display: none;
+    background-color: white;
+}
+.open {
+    display: none;
+}
+.mainShowAd .buyandsellpost_showad {
+    float:left;
+    width:60%;
+    background-color:white;
+    
+}
+.mainShowAd .buyandsellpost_showad .par{
+padding:15px 0;
+}
+.mainShowAd .buyandsellpost_showad .image_box {
+margin: 0 3%;
+margin-top:1%;
+width:94%;
+height: auto;
+}
+.mainShowAd .buyandsellpost_showad .desc_box {
+ margin:20px 0 10px 3%;
+}
+.mainShowAd .side_bar{
+margin-left:1%;
+float:left;
+width:39%;
+background-color:white;
+}
+.mobile_mainShowAdd .mobile_buyandsellpost_showad {
+    width:  100%;
+    
+}
+.mobile_mainShowAdd .mobile_buyandsellpost_showad .mobile_par{
+padding:15px 0;
+}
+.mobile_mainShowAdd .mobile_buyandsellpost_showad .mobile_image_box {
+margin: 0 3%;
+margin-top:3%;
+width:94%;
+max-height: 50%;
+}
+.mobile_mainShowAdd .mobile_buyandsellpost_showad .mobile_desc_box {
+ margin:20px 0 10px 3%;
+}
+.category_function {
+    background-color: white;
+    width:65%;
+    height: 250px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    margin-top:20px;
+}
+ .category_function .close_button {
+  float: right;
+    width: 30px;
+    border: 1px solid;
+ }
+   .category_function a {
+		text-decoration:none;	
+		color: black;
+		}
+	.category_function .active li, .category_function  a:active li, .category_function li:hover {
+	  background-image: url('../required/stbg.jpg');  
+	}
+	.category_function  a:active li {
+		
+		color: white;
+	}
+	.category_function .active li {
+		color: black;
+	}
+	
+	.category_function li {
+		margin: 7px 0;
+		padding: 1px 3px 1px 3px;
+		list-style-type: none;
+		
+	}
+nav {
+    height: 120px;
+    
+}
+.buyandsellad_inside_ad {
+    width:60%;
+    height: 30px;
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}
+nav ul li { float: left; padding:2% 2%; list-style-type: none;  }
+nav ul li a {text-decoration: none; color: white; font-size: large;  }
+nav ul li a:hover { text-decoration:underline;  color: pink; padding: 10px 0;}
+
+.post table tr td{ max-width: 300px;}
+
+.dp_image{float: right;}
+.message_box {
+    padding-left: 10%;
+    padding-top: 5%;
+    margin-top: 20px;
+    margin-left:5%;
+    background-color:white;
+    margin-right:5%;
+}
+.loginPage_input {
+    padding: 10px 0;
+    width: 40%;
+}
+.loginPage_article {
+    margin-top:10%;
+    margin-bottom:60px;
+}
+.loginPage_signin {
+    background-color:green;
+    padding: 10px 20px;
+    border: none;
+    color:white 
+}
+.loginPage_signup {
+    float: left;
+    margin-top:20px;
+    width: 20%;
+    margin-left: 30%;
+}
+.loginPage_fpass {
+    float: left;
+    margin-top:20px;
+    width: 20%;
+ }
+ .formclass {
+    width: 60%;
+    margin-left:20%;
+ }
+ .signup_input {
+    width: 80%;
+    height:30px;
+ }
+ .signup_signin {
+    width: 10%;
+    text-align: center;
+ }
+ .signup_signin_box {
+    margin-left:30%;
+    margin-bottom:10%;
+ }
+ .message_style {
+    padding:8px 0;
+    width:100%;
+     background-color:#d9d9d9;
+     text-align: center;
+ }
+ .mess_style_box {
+     padding:8px 0;
+     width:100%;
+     background-color:#d9d9d9;
+     text-align: center;
+     max-height: 300px;
+     display:block;
+     overflow:auto
+ }
+ .user_box {
+    background-color: #deedde; 
+ }
+ .message_span {
+    width: 25%;
+    float: left;
+ }
+ .message_span2 {
+    width: 45%;
+    float: left;
+  
+ }
+ .message_box_p {
+    margin-left: 30%;
+ }
+ .message_box_div {
+    margin-top: 10px;
+    background-color:#f2f2f2;
+    width: 80%;
+    min-height:350px;
+   margin-left:10%;
+ }
+ .form_div {
+    margin-left: 10%;
+ }
+ .form_box {
+    background-color:#d4ccc4;
+ }
+ .form_textarea_style {
+    width: 80%;
+    text-align: left;
+    margin-top:10%;
+    height: 200px ;
+    margin-bottom:3%;
+    border:none;
+ }
+ .myads_table {
+    width: 100%;
+     background-color: #deedde;
+     border-bottom:1px solid;
+ }
+ .myads_tables {
+    width: 70%;
+     background-color: #deedde;
+     margin-bottom: 5px;
+ }
+ .myads_select_from1 {
+    margin-left: 3px;
+ }
+ .myads_select_from2 {
+    margin-left: 20px;
+ }
+ .myads_select_from3 {
+    float:right;
+    margin-right: 5%;
+ }
+.myads_adname_tr{
+width:45%; 
+background-color:white
+}
+.myads_div {
+background-color:#e6e6ff;
+min-height: 200px;
+width:100%;
+}
+.myads_main_div {
+    width: 80%;
+    min-height:350px;
+   margin-top:10px;
+   margin-left:10%;
+}
+ .previewpage_sidebar {
+    background-color: #deeded;
+    float: left;
+    min-height: 150px;
+    width:25%;
+    margin-top:10px
+ }
+ .inside_vehicle {
+    background-color:white;
+    
+   
+ }
+ .inside_vehicle .list {
+    background-color:white; 
+ }
+ .inside_vehicle .list a li {
+    float: left;
+    margin-left:3%;
+    list-style-type: none;
+
+ }
+ .inside_vehicle .list a:first-child {
+    margin-left:0;
+ }
+ .sub_header {
+    margin-left:5%;
+ }
+ .sub_header .inside {
+    margin-left:5%;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right:5px;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:+15px;
+    background-color: #f9f9f9;
+    min-width: 50px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+.dropdown-content li {
+    margin-left: 0;
+    margin-top:10px;
+}
+.dropdown-content a {
+    margin-left: 0;
+    list-style-type: none;
+}
+.dropdown-content a:hover li {
+    background-color: white;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 4;
+}
+.inbos_ad_display_div {
+    width: 70%;
+}
+.no_ad_to_display_div {
+    margin-left:5%;
+    font-size:20px;
+    
+}
+.no_ad_to_display_image {
+    height:300px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    margin-left:30%
+}
+ .logo {
+margin-top:15px;
+margin-left:5%;
+width:100px;
+}
+.menu_logo {
+   width:100px; 
+}
+.fpassword_container {
+    width:80%;
+    margin-top:100px;
+    margin-left:10%;
+    background-color: grey;
+    text-align: center;
+}
+.above_footer_div {
+    clear: both;
+    background-color:#788983;
+    height: 60px;
+}
+.above_footer_div a {
+    color:white;
+}
+.above_footer_div ul {
+    margin-left: 5%;
+}
+.above_footer_div ul li {
+    margin-top:5px;
+    list-style-type:none;
+    float: left;
+    margin-left: 5%;
+}
+.above_footer_div ul li:first-child {
+    margin-left: 0;
+}
+.privacy-list ul li {
+    list-style-type: decimal;
+  margin-left:5%;
+}
+
+div.footer { background-color:#5c5c3d; height: 30px; clear: both; text-align: center; color: white}
+.footer span{ font-size: small;  }
+.footer p {  padding-top: 7px;}
+.policy_div {
+clear: both;
+ margin:1% 2%;
+ padding:5%;
+ background-color:white;
+}
+.policy_div li {
+list-style-type:none;
+margin-top:10px;
+}
+.policy_div h4 {
+margin-top:10px;
+}
+.div404 {
+    min-height: 500px;
+    background-color: white;
+    margin:2% 3%;
+    padding:5% 0;
+}
+.div404 ul {
+    margin-left:5%;
+}
+.div404 ul li {
+    margin-top: 4%;
+list-style-type:none;
+}
+.div404 ul li:first-child {
+    margin-top: 1%;
+}
+.fb_span_to_post {
+    margin:2% 0 0 15%;
+    padding:2%;
+    background-color:#3b5998 ;
+    color: white;
+}
+.fb_no_post {
+    padding:2%;
+    margin-left: 8%;
+    margin-top:2%;
+    background-color:red;
+    color:white;
+}
+#photoshow {
+   height: 150px;
+   width: 90%;
+padding-left:10%;
+}
+#photoshow div {
+    position: absolute;
+    z-index: 0;
+}
+#photoshow .current {
+    z-index: 2;
+}
+
+.img_rotate1 {
+    width: 100%;
+    height: 150px;
+  
+}
+ .img_rotate2 {
+    width: 100%;
+    height: 150px;
+
+}
+ .img_rotate3 {
+    width: 100%;
+    height: 150px;
+
+}
+ .img_rotate4 {
+    width: 100%;
+    height: 150px;
+} 
+.newarticle {
+    width:40%;
+    float: left;
+    background-color:white;
+    padding:1% 2%;
+    margin-left: 1%;
+    height:68px;
+    
+}
+.newarticle p {
+    font-size: 83.5%;
+    line-height: 1.5;
+}
+.select_p {
+    background-color:white;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width:100%;
+}
+.showhidden {
+ margin-left:5%;
+}
+div.showad_ad_familiar {
+width:60%;
+}
+.show_familiar_pic {
+width:20%;
+ height:80px; 
+border-bottom: 1px solid grey;
+ float:left
+}
+.show_familiar_desc {
+width:80%;
+float:left
+}
+@media only screen and (min-width:160px) and (max-width:600px)
+{
+    body {
+  width:100%;
+   }
+     .content {
+    font-size: 90%;
+    line-height: 1.5;
+   
+    }
+    .frontDisplay {
+    margin-left: 10%;
+    padding-top: 30px
+    }
+    .frontDisplay_reg {
+    margin-left: 2%;
+    }
+    .frontDisplay_create {
+    margin-left: 5%;
+    }
+    .mainHeader_view {
+    background-color:#eee7e7;
+    }
+    .headerSearchBar {
+    margin-left: 0;
+    width: 100%;
+    margin-top:10px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    background-color: #8a8a0f
+    }
+    .mainHeader{
+        margin-left:0 ;
+    }
+     #headerNav{
+        height: 300px;
+        margin-left:0;
+        display: none;
+    }
+    .mobile_create_ad_page_header .other {
+    margin-left:2%;
+    }
+    nav ul li {
+        padding:2% 0;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        
+        }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: large;
+        display: block;
+    }
+    nav ul li a:hover {
+        padding: 0 0;
+        }
+    .topHeader {
+    padding-top:10px;
+    color:#d96e26;
+    background-color:white;
+    }
+    .select_from {
+    box-shadow: 1px 2px 8px rgba(0,0,0,.5);
+    -moz-box-shadow: 1px 2px 8px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 8px rgba(0,0,0,.5);
+    width: 31%;
+    margin-left:2%;
+    margin-top:2%
+    }
+  
+    .mainShowAd .buyandsellpost_showad .par{
+    padding: 5px 0;
+    }
+    .mainShowAd .buyandsellpost_showad .image_box {
+    height:200px;
+    border:2px solid grey;
+    margin-top:2%;
+    }
+    .mainShowAd .side_bar{
+    margin-left:2%;
+    width:35%;
+    }
+    .show_ad_content {
+    margin: 0 0;
+   width: 100%;
+    }
+    .b_Add_Class {
+    padding-left: 3%;
+    padding-top: 20px;
+    margin-right: 0;
+    }
+    .b_Add_Container {
+    margin-bottom:10px;
+    margin-left:0;
+    }
+    .sub {
+    width:60%;
+    height: 25px;
+    }
+    .open {
+    display: table;
+    }
+    .buyandsellad_inside_ad {
+    width:80%;
+    }
+    .mainShowAd {
+    width: 100%;
+    display: none;
+    }
+    .mobile_mainShowAdd {
+        width: 100%;
+        display: table;
+    }
+    .create_ad_page_header {
+    display: none;
+    }
+    .mobile_create_ad_page_header {
+    display: block;
+    }
+    .loginPage_article {
+    margin-top:20%;
+    }
+    .loginPage_input {
+    width: 60%;
+    }
+    .loginPage_signup {
+    width: 35%;
+    margin-left: 12%;
+    }
+    .loginPage_fpass {
+    width: 45%;
+    }
+    .formclass {
+    width: 90%;
+    margin-left:10%;
+    }
+    .signup_signin {
+    width: 30%;
+    }
+    .signup_signin_box {
+    margin-left:10%;
+    }
+    .loggedfrontDisplay_create {
+    margin-left: 2%;
+    }
+     .message_style {
+    width:97%;
+     text-align: center;
+    }
+    .message_span {
+    width: 25%;
+    float: left;
+    }
+    .message_span2 {
+       width: 40%;
+       float: left;
+     
+    }
+    .mess_style_box {
+     max-height: 200px;
+    }
+    .message_box_div {
+    width: 95%;
+margin-left:2%;
+    }
+    .form_div {
+    margin-left: 8%;
+    }
+     .form_textarea_style {
+    height: 100px ;
+
+    }
+    .myads_table {
+    width: 100%;
+    }
+    .myads_tables {
+    width: 90%;
+     background-color: #deedde;
+     margin-bottom: 5px;
+    }
+    .myads_select_from3 {
+    float:right;
+    margin-right: 5%;
+    }
+    .inside_vehicle ul {
+    margin-left: 0;
+    }
+   .sub_header {
+    margin-left:3%;
+    }
+    .sub_header .inside {
+    margin-left:2%;
+    }
+    .inbos_ad_display_div {
+    width: 100%;
+    }
+    .no_ad_to_display_div {
+    font-size:18px;
+    
+    }
+    .no_ad_to_display_image {
+        height:300px;
+        margin-left:8%;
+    }
+    .logo {
+        width:25%;
+    }
+    .menu_logo {
+    width:70%;
+    }
+.myads_main_div {
+    width: 95%;
+margin-left:1.7%;
+  }
+    .policy_div {
+    line-height: 1.0;
+    }
+    #photoshow {
+   height: 150px;
+   width:100%;
+   padding-left:0;
+   }
+  .newarticle {
+     background-color: white;
+    padding:1% 2%;
+    width: 40%;
+    margin-bottom:10px;
+    height:90px;
+  }
+.showhidden {
+ margin-left:3%;
+ }
+  .myads_adname_tr{
+  width:35%; 
+  background-color:white
+  }
+ div.showad_ad_familiar {
+width:98%;
+}
+.show_familiar_pic {
+width:30%;
+}
+.show_familiar_desc {
+width:70%;
+}
+  
+}

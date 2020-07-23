@@ -1,0 +1,15 @@
+[19-Feb-2017 13:10:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/Vehicle/index.php:44) in /home/zukasell/public_html/Vehicle/index.php on line 45
+[19-Feb-2017 15:32:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/zukasell/public_html/Vehicle/index.php:44) in /home/zukasell/public_html/Vehicle/index.php on line 45
+[19-Feb-2017 15:32:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/Vehicle/index.php:44) in /home/zukasell/public_html/Vehicle/index.php on line 45
+[22-Feb-2017 03:15:12 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/Vehicle/index.php:60) in /home/zukasell/public_html/database.php on line 47
+[22-Feb-2017 03:15:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/Vehicle/index.php:60) in /home/zukasell/public_html/database.php on line 47
+[22-Feb-2017 03:15:29 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/Vehicle/index.php:60) in /home/zukasell/public_html/database.php on line 47
+[22-Feb-2017 03:15:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/Vehicle/index.php:60) in /home/zukasell/public_html/database.php on line 47
+[24-Feb-2017 14:49:24 America/Chicago] PHP Warning:  require_once(header.php): failed to open stream: No such file or directory in /home/zukasell/public_html/Vehicle/showad.php on line 22
+[24-Feb-2017 14:49:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zukasell/public_html/Vehicle/showad.php on line 22
+[24-Feb-2017 15:57:08 America/Chicago] PHP Fatal error:  Class 'buyandsell' not found in /home/zukasell/public_html/Vehicle/showad.php on line 26
+[24-Feb-2017 15:57:30 America/Chicago] PHP Fatal error:  Class 'buyandsell' not found in /home/zukasell/public_html/Vehicle/showad.php on line 26
+[24-Feb-2017 16:06:40 America/Chicago] PHP Warning:  require_once(/home/zukasell/public_htmldatabase.php): failed to open stream: No such file or directory in /home/zukasell/public_html/buyandsellpost.php on line 2
+[24-Feb-2017 16:06:40 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/zukasell/public_htmldatabase.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zukasell/public_html/buyandsellpost.php on line 2
+[25-Feb-2017 04:42:11 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/zukasell/public_html/Vehicle/preview.php on line 6
+[09-Jun-2017 08:03:11 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/zukasell/public_html/database.php on line 24

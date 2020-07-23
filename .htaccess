@@ -1,0 +1,122 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{HTTP_HOST} ^zukasell\.com$
+RewriteRule ^(.*)$ http://www.zukasell.com/$1 [R=301,L]
+RewriteRule ^Vehicles/([0-9]+)/([0-9a-zA-Z-.]*)$ Vehicle/showad.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Mobile\-Phone\-and\-Tablets/([0-9]+)/([a-zA-Z-_.0-9]*)$ Mobile-Phones-and-Tablets/showad.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Electronic/([0-9]+)/([0-9a-zA-Z-_.]*)$ Electronics/showad.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Home\-Furniture/([0-9]+)/([0-9a-zA-Z-_.]*)$ Home-Furniture/showad.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Real\-Estates/([0-9]+)/([0-9a-zA-Z-_.]*)$ Real-Estate/showad.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Fashions\-and\-Beauty/([0-9]+)/([0-9a-zA-Z-_.]*)$ Fashion-and-Beauty/showad.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Jobs\-and\-Service/([0-9]+)/([0-9a-zA-Z-_.]*)$ Jobs-and-Services/showad.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Vehicles/edit/([0-9]+)/([0-9a-zA-Z-_.]*)$ Vehicle/edit_ad_page.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Mobile\-Phone\-and\-Tablets/edit/([0-9]+)/([0-9a-zA-Z-_.]*)$ Mobile-Phones-and-Tablets/edit_ad_page.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Electronic/edit/([0-9]+)/([0-9a-zA-Z-_.]*)$ Electronics/edit_ad_page.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Home\-Furniture/edit/([0-9]+)/([0-9a-zA-Z-_.]*)$ Home-Furniture/edit_ad_page.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Real\-Estates/edit/([0-9]+)/([0-9a-zA-Z-_.]*)$ Real-Estate/edit_ad_page.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Fashions\-and\-Beauty/edit/([0-9]+)/([0-9a-zA-Z-_.]*)$ Fashion-and-Beauty/edit_ad_page.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Jobs\-and\-Service/edit/([0-9]+)/([0-9a-zA-Z-_.]*)$ Jobs-and-Services/edit_ad_page.php?ad_id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Vehicles/show-view/([0-9]+)/([0-9a-zA-Z-_.]*)$ Vehicle/preview.php?id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Mobile\-Phone\-and\-Tablets/show-view/([0-9]+)/([0-9a-zA-Z-_.]*)$ Mobile-Phones-and-Tablets/preview.php?id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Electronic/show-view/([0-9]+)/([0-9a-zA-Z-_.]*)$ Electronics/preview.php?id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Home\-Furniture/show-view/([0-9]+)/([0-9a-zA-Z-_.]*)$ Home-Furniture/preview.php?id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Real\-Estates/show-view/([0-9]+)/([0-9a-zA-Z-_.]*)$ Real-Estate/preview.php?id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Fashions\-and\-Beauty/show-view/([0-9]+)/([0-9a-zA-Z-_.]*)$ Fashion-and-Beauty/preview.php?id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^Jobs\-and\-Service/show-view/([0-9]+)/([0-9a-zA-Z-_.]*)$ Jobs-and-Services/preview.php?id=$1&adname=$2 [L,QSA,NC]
+RewriteRule ^conversation/([0-9]+)/([0-9]+)/([0-9a-zA-Z_-]+) sendmessage.php?id=$1&user=$2&location=$3 [L,QSA,NC]
+RewriteRule ^confirm/([0-9a-zA-Z.-_]+)/([0-9]+)/([0-9a-zA-Z.@-_]+)$ activation.php?p=$1&user_id=$2&e=$3 [L,QSA,NC]
+RewriteRule ^strup/([0-9]+)$ confirmation_page.php?id=$1 [NC,QSA,L]
+
+
+
+<IfModule mod_expires.c>
+
+    ExpiresActive on
+    ExpiresDefault                                      "access plus 1 month"
+
+  # CSS
+
+    ExpiresByType text/css                              "access plus 1 minute"
+
+
+  # Data interchange
+
+    ExpiresByType application/atom+xml                  "access plus 1 hour"
+    ExpiresByType application/rdf+xml                   "access plus 1 hour"
+    ExpiresByType application/rss+xml                   "access plus 1 hour"
+
+    ExpiresByType application/json                      "access plus 0 seconds"
+    ExpiresByType application/ld+json                   "access plus 0 seconds"
+    ExpiresByType application/schema+json               "access plus 0 seconds"
+    ExpiresByType application/vnd.geo+json              "access plus 0 seconds"
+    ExpiresByType application/xml                       "access plus 0 seconds"
+    ExpiresByType text/xml                              "access plus 0 seconds"
+
+
+  # Favicon (cannot be renamed!) and cursor images
+
+    ExpiresByType image/vnd.microsoft.icon              "access plus 1 week"
+    ExpiresByType image/x-icon                          "access plus 1 week"
+
+  # HTML
+
+    ExpiresByType text/html                             "access plus 0 seconds"
+
+
+  # JavaScript
+
+    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/x-javascript              "access plus 1 year"
+    ExpiresByType text/javascript                       "access plus 1 week"
+
+
+  # Manifest files
+
+    ExpiresByType application/manifest+json             "access plus 1 week"
+    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+
+
+  # Media files
+
+    ExpiresByType audio/ogg                             "access plus 1 month"
+    ExpiresByType image/bmp                             "access plus 1 week"
+    ExpiresByType image/gif                             "access plus 1 week"
+    ExpiresByType image/jpeg                            "access plus 1 week"
+    ExpiresByType image/png                             "access plus 1 week"
+    ExpiresByType image/svg+xml                         "access plus 1 month"
+    ExpiresByType image/webp                            "access plus 1 month"
+    ExpiresByType video/mp4                             "access plus 1 month"
+    ExpiresByType video/ogg                             "access plus 1 month"
+    ExpiresByType video/webm                            "access plus 1 month"
+
+
+  # Web fonts
+
+    # Embedded OpenType (EOT)
+    ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+    ExpiresByType font/eot                              "access plus 1 month"
+
+    # OpenType
+    ExpiresByType font/opentype                         "access plus 1 month"
+
+    # TrueType
+    ExpiresByType application/x-font-ttf                "access plus 1 month"
+
+    # Web Open Font Format (WOFF) 1.0
+    ExpiresByType application/font-woff                 "access plus 1 month"
+    ExpiresByType application/x-font-woff               "access plus 1 month"
+    ExpiresByType font/woff                             "access plus 1 month"
+
+    # Web Open Font Format (WOFF) 2.0
+    ExpiresByType application/font-woff2                "access plus 1 month"
+
+
+  # Other
+
+    ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
+
+</IfModule>
+
+ErrorDocument 404 /404.php

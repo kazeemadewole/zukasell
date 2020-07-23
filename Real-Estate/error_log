@@ -1,0 +1,2 @@
+[19-Feb-2017 15:33:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/zukasell/public_html/Real Estate/index.php:44) in /home/zukasell/public_html/Real Estate/index.php on line 45
+[19-Feb-2017 15:33:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/Real Estate/index.php:44) in /home/zukasell/public_html/Real Estate/index.php on line 45

@@ -1,0 +1,1 @@
+[09-Jun-2017 07:59:43 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/zukasell/public_html/database.php on line 24

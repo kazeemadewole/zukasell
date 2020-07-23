@@ -1,0 +1,102 @@
+[18-Feb-2017 06:05:20 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/zukasell/public_html/database.php on line 19
+[18-Feb-2017 06:27:05 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/zukasell/public_html/database.php on line 19
+[18-Feb-2017 07:34:41 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/zukasell/public_html/database.php on line 19
+[18-Feb-2017 07:39:24 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/zukasell/public_html/database.php on line 19
+[18-Feb-2017 08:03:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/buyandsellad.php:10) in /home/zukasell/public_html/header.php on line 22
+[18-Feb-2017 15:04:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/buyandsellad.php:10) in /home/zukasell/public_html/header.php on line 22
+[18-Feb-2017 15:06:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/login.php:10) in /home/zukasell/public_html/login.php on line 11
+[18-Feb-2017 15:07:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/signup.php:14) in /home/zukasell/public_html/signup.php on line 15
+[18-Feb-2017 15:10:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/signup.php:14) in /home/zukasell/public_html/signup.php on line 15
+[18-Feb-2017 15:11:45 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/signup.php:14) in /home/zukasell/public_html/signup.php on line 15
+[19-Feb-2017 01:06:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/login.php:10) in /home/zukasell/public_html/login.php on line 11
+[19-Feb-2017 01:06:44 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/signup.php:14) in /home/zukasell/public_html/signup.php on line 15
+[19-Feb-2017 07:41:21 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/index.php:65) in /home/zukasell/public_html/database.php on line 47
+[19-Feb-2017 07:51:56 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/login.php:10) in /home/zukasell/public_html/login.php on line 11
+[19-Feb-2017 07:57:18 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/signup.php:14) in /home/zukasell/public_html/signup.php on line 15
+[23-Feb-2017 03:42:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/buyandsellad.php:10) in /home/zukasell/public_html/header.php on line 2
+[23-Feb-2017 03:42:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/buyandsellad.php:10) in /home/zukasell/public_html/header.php on line 2
+[23-Feb-2017 04:00:10 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/signup.php:9) in /home/zukasell/public_html/database.php on line 47
+[23-Feb-2017 04:04:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:34) in /home/zukasell/public_html/database.php on line 47
+[24-Feb-2017 04:22:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:34) in /home/zukasell/public_html/database.php on line 47
+[24-Feb-2017 04:23:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:34) in /home/zukasell/public_html/database.php on line 47
+[25-Feb-2017 04:27:04 America/Chicago] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home/zukasell/public_html/buyandsellpost.php on line 1460
+[25-Feb-2017 07:22:51 America/Chicago] PHP Parse error:  syntax error, unexpected '$location' (T_VARIABLE), expecting ',' or ';' in /home/zukasell/public_html/sendmessage.php on line 87
+[25-Feb-2017 07:25:27 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/zukasell/public_html/sendmessage.php on line 85
+[25-Feb-2017 07:26:26 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/zukasell/public_html/sendmessage.php on line 85
+[27-Feb-2017 12:51:28 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/zukasell/public_html/database.php on line 67
+[28-Feb-2017 02:02:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:34) in /home/zukasell/public_html/database.php on line 47
+[28-Feb-2017 02:04:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:33) in /home/zukasell/public_html/database.php on line 47
+[28-Feb-2017 02:05:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:33) in /home/zukasell/public_html/database.php on line 47
+[28-Feb-2017 02:06:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:33) in /home/zukasell/public_html/database.php on line 47
+[28-Feb-2017 02:07:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:34) in /home/zukasell/public_html/database.php on line 47
+[28-Feb-2017 02:07:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:34) in /home/zukasell/public_html/database.php on line 47
+[02-Mar-2017 00:50:39 America/Chicago] PHP Warning:  require_once(src/Facebook/facebook.php): failed to open stream: No such file or directory in /home/zukasell/public_html/fb.php on line 3
+[02-Mar-2017 00:50:39 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'src/Facebook/facebook.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zukasell/public_html/fb.php on line 3
+[02-Mar-2017 00:52:33 America/Chicago] PHP Fatal error:  Class 'Facebook\FacebookApp' not found in /home/zukasell/public_html/src/Facebook/facebook.php on line 141
+[02-Mar-2017 00:53:05 America/Chicago] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/zukasell/public_html/fb.php on line 10
+[02-Mar-2017 00:54:09 America/Chicago] PHP Fatal error:  Class 'Facebook' not found in /home/zukasell/public_html/fb.php on line 10
+[02-Mar-2017 00:56:17 America/Chicago] PHP Fatal error:  Class 'Facebook\FacebookApp' not found in /home/zukasell/public_html/src/Facebook/facebook.php on line 141
+[02-Mar-2017 00:59:42 America/Chicago] PHP Catchable fatal error:  Argument 2 passed to Facebook\Helpers\FacebookRedirectLoginHelper::getLoginUrl() must be of the type array, string given, called in /home/zukasell/public_html/fb.php on line 60 and defined in /home/zukasell/public_html/src/Facebook/Helpers/FacebookRedirectLoginHelper.php on line 168
+[02-Mar-2017 17:22:42 America/Chicago] PHP Fatal error:  Class 'Facebook\Facebook' not found in /home/zukasell/public_html/login.php on line 43
+[02-Mar-2017 17:26:00 America/Chicago] PHP Warning:  require_once(src/Facebook\Exceptions\FacebookResponseException.php): failed to open stream: No such file or directory in /home/zukasell/public_html/login.php on line 8
+[02-Mar-2017 17:26:00 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'src/Facebook\Exceptions\FacebookResponseException.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zukasell/public_html/login.php on line 8
+[02-Mar-2017 17:27:04 America/Chicago] PHP Warning:  require_once(src/Facebook\Exceptions\FacebookResponseException.php): failed to open stream: No such file or directory in /home/zukasell/public_html/login.php on line 8
+[02-Mar-2017 17:27:04 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'src/Facebook\Exceptions\FacebookResponseException.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zukasell/public_html/login.php on line 8
+[02-Mar-2017 18:02:53 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/login.php:34) in /home/zukasell/public_html/login.php on line 89
+[02-Mar-2017 18:06:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/login.php:34) in /home/zukasell/public_html/login.php on line 89
+[02-Mar-2017 18:08:22 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/login.php:34) in /home/zukasell/public_html/login.php on line 88
+[02-Mar-2017 18:14:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/zukasell/public_html/login.php on line 137
+[02-Mar-2017 18:17:56 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/zukasell/public_html/login.php on line 146
+[03-Mar-2017 01:10:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/login.php:36) in /home/zukasell/public_html/login.php on line 89
+[03-Mar-2017 01:15:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/login.php:36) in /home/zukasell/public_html/login.php on line 87
+[03-Mar-2017 01:15:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/login.php:36) in /home/zukasell/public_html/database.php on line 47
+[03-Mar-2017 01:17:21 America/Chicago] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookSDKException' with message 'Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID"' in /home/zukasell/public_html/src/Facebook/facebook.php:133
+Stack trace:
+#0 /home/zukasell/public_html/login.php(43): Facebook\Facebook->__construct(Array)
+#1 {main}
+  thrown in /home/zukasell/public_html/src/Facebook/facebook.php on line 133
+[03-Mar-2017 01:23:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/login.php:10) in /home/zukasell/public_html/login.php on line 11
+[03-Mar-2017 01:24:16 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/login.php:2) in /home/zukasell/public_html/login.php on line 3
+[03-Mar-2017 02:54:20 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in /home/zukasell/public_html/login.php on line 91
+[03-Mar-2017 03:07:10 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/zukasell/public_html/login.php on line 90
+[03-Mar-2017 03:09:06 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/zukasell/public_html/login.php on line 90
+[03-Mar-2017 03:09:13 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/zukasell/public_html/login.php on line 90
+[06-Mar-2017 08:06:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'localhost' (T_STRING) in /home/zukasell/public_html/database.php on line 17
+[06-Mar-2017 09:50:51 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/zukasell/public_html/buyandsellpost.php on line 333
+[06-Mar-2017 10:01:33 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/zukasell/public_html/buyandsellpost.php on line 334
+[06-Mar-2017 10:01:38 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/zukasell/public_html/buyandsellpost.php on line 334
+[07-Mar-2017 01:06:21 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/zukasell/public_html/user.php on line 231
+[07-Mar-2017 01:08:46 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/zukasell/public_html/user.php on line 231
+[09-Mar-2017 14:34:21 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/zukasell/public_html/buyandsellpost.php on line 325
+[09-Mar-2017 14:35:23 America/Chicago] PHP Parse error:  syntax error, unexpected '&' in /home/zukasell/public_html/buyandsellpost.php on line 325
+[09-Mar-2017 14:48:50 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/zukasell/public_html/buyandsellpost.php on line 326
+[09-Mar-2017 14:56:01 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/zukasell/public_html/buyandsellpost.php on line 327
+[09-Mar-2017 14:56:09 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/zukasell/public_html/buyandsellpost.php on line 327
+[09-Mar-2017 14:57:05 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/zukasell/public_html/buyandsellpost.php on line 328
+[09-Mar-2017 14:58:29 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home/zukasell/public_html/buyandsellpost.php on line 327
+[16-Mar-2017 08:26:08 America/Chicago] PHP Parse error:  syntax error, unexpected 'Jobs' (T_STRING) in /home/zukasell/public_html/buyandsellpost.php on line 319
+[19-Mar-2017 02:40:08 America/Chicago] PHP Warning:  move_uploaded_file(uploads/senseyblacksmith@yahoo.com/FB_IMG_1488589895972.jpg): failed to open stream: No such file or directory in /home/zukasell/public_html/buyandsellpost.php on line 170
+[19-Mar-2017 02:40:08 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php39fqku' to 'uploads/senseyblacksmith@yahoo.com/FB_IMG_1488589895972.jpg' in /home/zukasell/public_html/buyandsellpost.php on line 170
+[19-Mar-2017 02:40:08 America/Chicago] PHP Warning:  move_uploaded_file(uploads/senseyblacksmith@yahoo.com/FB_IMG_1488590423317.jpg): failed to open stream: No such file or directory in /home/zukasell/public_html/buyandsellpost.php on line 176
+[19-Mar-2017 02:40:08 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpB2pQCR' to 'uploads/senseyblacksmith@yahoo.com/FB_IMG_1488590423317.jpg' in /home/zukasell/public_html/buyandsellpost.php on line 176
+[19-Mar-2017 02:40:08 America/Chicago] PHP Warning:  move_uploaded_file(uploads/senseyblacksmith@yahoo.com/FB_IMG_1487814514801.jpg): failed to open stream: No such file or directory in /home/zukasell/public_html/buyandsellpost.php on line 182
+[19-Mar-2017 02:40:08 America/Chicago] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/php7587Gh' to 'uploads/senseyblacksmith@yahoo.com/FB_IMG_1487814514801.jpg' in /home/zukasell/public_html/buyandsellpost.php on line 182
+[24-Mar-2017 10:40:40 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/zukasell/public_html/post_to_fb.php:10) in /home/zukasell/public_html/post_to_fb.php on line 11
+[24-Mar-2017 11:31:16 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE), expecting ',' or ';' in /home/zukasell/public_html/buyandsellpost.php on line 323
+[27-Mar-2017 03:45:56 America/Chicago] PHP Fatal error:  Using $this when not in object context in /home/zukasell/public_html/buyandsellad.php on line 350
+[09-Apr-2017 02:58:33 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/zukasell/public_html/inbos.php on line 107
+[11-Apr-2017 09:50:02 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:12) in /home/zukasell/public_html/database.php on line 51
+[18-Apr-2017 01:36:24 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/zukasell/public_html/buyandsellpost.php on line 1440
+[18-Apr-2017 01:37:45 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/zukasell/public_html/buyandsellpost.php on line 1440
+[19-May-2017 14:32:00 America/Chicago] PHP Warning:  require_once(includes/session.php): failed to open stream: No such file or directory in /home/zukasell/public_html/ad_home.php on line 3
+[19-May-2017 14:32:00 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'includes/session.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/zukasell/public_html/ad_home.php on line 3
+[20-May-2017 02:58:52 UTC] PHP Fatal error:  Call to undefined function Facebook\PseudoRandomString\mb_substr() in /home/zukasell/public_html/src/Facebook/PseudoRandomString/PseudoRandomStringGeneratorTrait.php on line 56
+[20-May-2017 20:24:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:12) in /home/zukasell/public_html/database.php on line 51
+[21-May-2017 19:32:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:12) in /home/zukasell/public_html/database.php on line 51
+[27-May-2017 01:42:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:12) in /home/zukasell/public_html/database.php on line 51
+[28-May-2017 12:07:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:12) in /home/zukasell/public_html/database.php on line 51
+[30-May-2017 11:27:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:12) in /home/zukasell/public_html/database.php on line 51
+[09-Jun-2017 07:55:55 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/zukasell/public_html/database.php on line 24
+[09-Jun-2017 07:59:43 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/zukasell/public_html/database.php on line 24
+[09-Jun-2017 08:04:46 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/zukasell/public_html/database.php on line 24
+[22-Jun-2017 00:48:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/zukasell/public_html/header.php:17) in /home/zukasell/public_html/database.php on line 51
